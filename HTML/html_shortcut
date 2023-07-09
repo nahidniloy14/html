@@ -1,0 +1,48 @@
+ul>li*5
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+----------------------------------------
+ul>li*5>a.gender#id
+  <ul>
+      <li><a href="" class="gender" id="id"></a></li>
+      <li><a href="" class="gender" id="id"></a></li>
+      <li><a href="" class="gender" id="id"></a></li>
+      <li><a href="" class="gender" id="id"></a></li>
+      <li><a href="" class="gender" id="id"></a></li>
+  </ul>
+
+----------------------------------------------------
+main>article*3.blog>h3{New Blog$}
+  <main>
+      <article class="blog">
+          <h3>New Blog1</h3>
+      </article>
+      <article class="blog">
+          <h3>New Blog2</h3>
+      </article>
+      <article class="blog">
+          <h3>New Blog3</h3>
+      </article>
+  </main>
+---------------------------------------------
+main>article*3.blog>h3{New Blog$}+p>lorem100
+
+<main>
+    <article class="blog">
+        <h3>New Blog1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt culpa accusantium ullam, officiis reprehenderit illum minus, reiciendis provident quas aliquam quod. Molestias autem quia beatae iure. Illo eveniet qui ducimus pariatur, eum dicta quibusdam! Eos soluta iusto autem repellendus molestias earum magnam omnis non nemo quam delectus, voluptatum culpa dolores sapiente cumque, vel numquam ipsam expedita deleniti suscipit reiciendis ea commodi. Iusto nihil, impedit rem inventore voluptatum vitae recusandae totam eaque ratione fuga, praesentium eius suscipit error est sit a harum. Ex quo sapiente fugiat officiis dolore odio consectetur cum eveniet rem! Distinctio natus qui reprehenderit eum deleniti odio.</p>
+    </article>
+    <article class="blog">
+        <h3>New Blog2</h3>
+        <p>Cumque maxime voluptatum ab laudantium dolore odit eveniet assumenda quaerat! Ipsam odio doloremque incidunt ratione iure quos nihil? Delectus minus reiciendis animi accusantium autem non quae omnis illo eveniet obcaecati pariatur ut nobis facere necessitatibus id quis quas temporibus labore laudantium quod, tempora magni? Quod explicabo saepe deserunt, enim nobis optio exercitationem harum repellat soluta! Optio in perferendis voluptas expedita harum eveniet animi distinctio placeat facilis ducimus recusandae deserunt tempora hic reiciendis, tempore dolorum eos soluta. Unde accusamus mollitia magnam dolorem provident, esse laudantium rerum quisquam in labore non assumenda odio temporibus sequi nam ea voluptas dolore. Magni, dolorem totam?</p>
+    </article>
+    <article class="blog">
+        <h3>New Blog3</h3>
+        <p>Debitis beatae, non minima cumque adipisci porro delectus earum est ratione, voluptatem voluptatum rem, dolorem autem et aut vitae? Nemo error optio perspiciatis voluptate deleniti dolores. Veritatis, dignissimos? Consectetur ratione soluta voluptates voluptatem unde repellat blanditiis aut, impedit odit itaque quae quidem beatae eum ipsa facilis, dolorem distinctio quos placeat corrupti inventore molestias aspernatur, voluptatibus vitae amet! Modi aliquid quod repudiandae exercitationem vel quidem, et suscipit enim eveniet, eum quis qui consectetur fuga ducimus culpa blanditiis maiores sit cumque obcaecati. Ratione eligendi sunt voluptatum cupiditate, at perspiciatis suscipit neque culpa iure a excepturi eius provident tempora illum dolor nihil corporis.</p>
+    </article>
+</main>

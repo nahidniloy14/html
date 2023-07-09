@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</Form></title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        #form_decoration{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+    <fieldset id="form_decoration">
+        <legend>Please Fill Up All The Information</legend>
+        <h2>Registration</h2>
+        <form>
+            <label for="Your Email">Email:
+                <input id="Your Email" type="text" placeholder="Email">
+            </label>
+    
+            <label for="Your Password">Password:
+                <input id="Your Password" type="password" placeholder="password">
+            </label>
+
+            <label for="Your username">Username:
+                <input id="Your username" type="text" placeholder="Username">
+            </label>
+
+            <label for="gender">Gender:
+                <input type="radio" id="gender" name="gender">Male
+                <input type="radio" id="gender" name="gender">Female
+                <input type="radio" id="gender" name="gender">Other
+            </label>
+
+            <label for="employment">Employment Status:
+                <input type="checkbox" id="employment" >Student
+                <input type="checkbox" id="employment" >Employed
+               
+            </label>
+            <label for="yourself">About:
+                <textarea name="About" id="" cols="30" rows="10"></textarea>
+            </label>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </fieldset>
+    
+</body>
+</html>
+
+<!-- <input type="radio" id="gender" name="gender">Other
+name will help to avoid multiple selection on radio button -->
+
